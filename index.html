@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        body {
+            height: 100%;
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgb(192, 189, 189);
+        }
+        .main{
+            margin: 20px;
+            /* border: 1px solid black; */
+            padding: 12px;
+        }
+
+        .cont1 {
+            margin: 25px;
+            height: 600px;
+            width: 900px;
+            background-color: whitesmoke;
+            border-radius: 15px;
+        }
+
+        .cont2 {
+            margin: 10px;
+            /* border: 2px solid black; */
+        }
+        .cont3{
+            font-size: 19px;
+            padding: 7px;
+        }
+        .cont4{
+            font-size: 19px;
+            padding: 10px;
+        }
+        .cont5{
+            font-size: 19px;
+            padding: 10px;
+        }
+        .cont6{
+            font-size: 19px;
+            padding: 10px;
+        }
+        .cont7{
+            font-size: 19px;
+            padding: 10px;
+        }
+        .cont8{
+            padding: 20px;
+            text-align: right;
+        }
+        button {
+            height: 40px;
+            background-color: red;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 5px;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        button:hover {
+            background-color: rgb(249, 226, 226);
+            color: black;
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <div class="cont1">
+        <div class="main">
+            <div class="cont2">
+                <h2>Job Application (Web)</h2>
+            </div>
+            <div class="cont3">
+                <label for="Name">First Name</label>
+                <span style="margin-left: 315px;">
+                    <label for="name">Last Name</label>
+                </span>
+                <br>
+                <input type="Name" id="Name" name="Name" placeholder="Enter Your First Name..">
+                <span style="margin-left: 230px;">
+                    <input type="name" id="name" name="name" placeholder="Enter Your Last Name..">
+                </span>
+            </div>
+            <div class="cont4">
+                <label for="email">Email</label>
+                <span style="margin-left: 355px;">
+                    <label for="search">Job Role</label>
+                </span>
+                <br>
+                <input type="email" id="email" name="email" placeholder="Enter Your Email...">
+                <span style="margin-left: 230px;">
+                    <select id="search" name="Select job role" style="height: 25px;">
+                        <option value="frontend developer"> Frontend Developer</option>
+                        <option value="backend developer"> Backend Developer</option>
+                        <option value="kotlin developer"> Kotlin Developer</option>
+                        <option value="java developer"> Java Developer</option>
+                        <option value="python developer"> Python Developer</option>
+                    </select>
+                </span>
+            </div>
+            <div class="cont5">
+                <label for="address">Address</label>
+                <br>
+                <textarea name="address" id="address" placeholder="Enter your Address..." style="height: 50px; width: 100%;"></textarea>
+            </div>
+            <div class="cont6">
+                <label for="city">City</label>
+                <span style="margin-left: 367px;">
+                    <label for="pincode">Pin-Code</label>
+                </span>
+                <br>
+                <input type="city" id="city" name="city">
+                <span style="margin-left: 230px;">
+                    <input type="text" id="pincode" name="pincode">
+                </span>
+            </div>
+            <div class="cont7">
+                <label for="date">Date</label>
+                <span style="margin-left: 363px;">
+                    <label for="upload">Upload your CV</label>
+                </span>
+                <br>
+                <input type="date" id="date" name="date" placeholder="Enter date">
+                <span style="margin-left: 285px;">
+                    <input type="file" id="upload" name="upload">
+                </span>
+            </div>
+            <div class="cont8">
+                <button type="submit" style="height: 40px; background-color: red;">Apply now</button>
+            </div>
+            
+        </div>
+
+
+
+    </div>
+
+
+</body>
+
+</html>
